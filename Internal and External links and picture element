@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+	<title>Internal and External links and picture element px</title>
+	<meta charset ="utf-8"/>
+	</head>
+		<body>
+		<fieldset>
+		  <legend><p>this is for audio, div and hr elements</p></legend>
+		  <hr>
+		  <div >click the <a href ="#mix.mp3"><b><em>play</em></b></a> button to play the audioio</div>
+		<p><h1 id ="features" method ="post"><strong>The best Features of Ethioprograming</strong></h1></p>
+		<p><a href ="#fav">Go to <em>programing Languages</em></a></p>
+		<fieldset>
+		<legend><b>picture and video elements</b></legend>
+			<picture>
+			  <source media="(max-width:650px)" srcset="form1.jpg"/>
+			  <source media="(min-width:720px") srcset="11.png">
+			  <img src ="3.png" alt ="no image displayed" style ="width:auto">
+			</picture>
+			<video  width="450"  controls >
+			<source src ="github.mp4" type ="video/mp4">
+			Your browser doesn't support video format
+			</video>
+			<video  width="450"  controls >
+			<source src ="github.mp4" type ="video/mp4">
+			Your browser doesn't support video format
+			</video>
+			<video width="450"  controls >
+			<source src ="github.mp4" type ="video/mp4" >
+			Your browser doesn't support video format
+			</video>
+			<audio controls>
+			<source src ="mix.mp3" type ="audio/mpeg">
+			Your browser doesn't support audio format
+			</audio>
+			<audio controls width ="450">
+			<source src ="mix.mp3" type ="audio/mpeg">
+			Your browser doesn't support audio format
+			</audio>
+			<audio controls>
+			<source src ="mix.mp3" type ="audio/mpeg">
+			Your browser doesn't support audio format
+			</audio>
+		</fieldset>
+		   <ul>
+		      <li>Use the channel to learn programing concepts</li>
+		      <li>You have access to it freely:
+			     <ul>
+					  <li>Programming concepts</li>
+					  <li>New applicants
+						 <ul>
+							 <li>MS Word</li>
+							 <li>MS Access</li>
+						 </ul>
+
+					  </li>
+					  <li>Around the clock news</li>
+					  <li>Search Engines</li>
+					  <li>Shopping</li>
+					  <li>Programming
+						 <ul>
+							 <li>HTML5</li>
+							 <li>Java</li>
+							 <li>Dynamic HTML</li>
+							 <li>Scripts</li>
+							 <li>New languages</li>
+						 </ul>
+					  </li>
+		         </ul>
+			  </li>
+			  <li>Links</li>
+			  <li>Keeping in touch with old friends</li>
+			  <li>It is the technology of the future!</li>
+		   </ul>
+		  <p><h1 id ="fav"><b>List of Languages</b></h1></p>
+		  <p><a href ="#features">Go to<em>Favorite Features</em></a></p>
+		  <p><a href ="w.html#color and backgrounds changed">GO to <em>for all history selected</em></a></p>
+			<ol>
+			  <li>C++</li>
+			  <li>JAVA</li>
+			  <li>PHP</li>
+			</ol>
+			<div> i used div to start with new line</div>
+		  <hr>
+		  <p>I used paragraph </p> <p> for separation</p>
+		  <audio id ="mix.mp3" controls />
+		  <source src ="mix.mp3">
+		  </audio>
+		  </fieldset>
+		</body>
+</html>
